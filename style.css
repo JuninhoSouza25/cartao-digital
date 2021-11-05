@@ -20,16 +20,16 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .imagem-container {
     display: flex;
-    height: 200px;
     width: 100%;
 }
 
 .imagem-container .imagem {
-    height: 100%;
+    height: 200px;
     border-radius: 100px;
     border: 3px solid #6fa3ce;
     margin: 20px auto;
@@ -43,12 +43,19 @@ body {
 }
 
 .container-nome .nome {
-    font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
+    font-weight: 400;
     color: #6fa3ce;
 }
 
 .container-cargo {
     display: flex;
     justify-content: center;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    justify-self: flex-end;
+    margin-bottom: 10px;
 }
